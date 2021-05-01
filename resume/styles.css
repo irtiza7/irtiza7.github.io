@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: 0px;
+}
+
+.flex-container{
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: top bottom;
+
+    width: 100%;
+    height: 1150px; 
+}
+
+.leftDiv{
+
+    background-color:rgb(8, 73, 70);
+    color: rgb(206, 206, 206);
+    
+    margin: 0;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 20%;
+}
+
+#myImage{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    margin-right: 10px;
+    
+    width:150px;
+    height: 150px;
+    
+    border-radius: 50%;
+}
+
+#myName{
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+
+.contactDiv{
+    margin-top: 50px;
+}
+
+.contactContent{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contactPoints{
+    color:white;
+    padding-top: 10px;
+}
+
+.socialDiv{
+    margin-top: 15px;
+}
+
+.socialContent{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.socialColumn{
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.socialHyperlink{
+    color:rgb(206, 206, 206);
+    text-decoration: none;
+}
+
+.iconLabel{
+    display: inline;
+}
+
+.iconDiv{
+    width: 35px;
+    height: 35px;
+}
+
+.referenceDiv{
+    margin-top: 15px;
+}
+
+.referenceContent{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.referencePoints{
+    color:white;
+    padding-top: 10px;
+}
+
+.referenceDetails{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.rightDiv{
+
+    background-image: url(./images/background4.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0, 46, 32);
+    color: rgb(206, 206, 206);
+
+    margin: 0;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 80%;
+}
+
+.aboutDiv{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.educationDiv{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.fypDiv{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.otherProjectsDiv{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.skillsDiv{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#personalSkills{
+    color: rgb(47, 201, 201);
+    margin-top: 25px;
+}
+
+.skillsTable{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.skillsColumns{
+    width: 25%
+}
+
+.skillsColumns2{
+    width: 22.5%
+}
+
+.headingColor{
+    color:rgb(47, 201, 201);
+}
+
+#aboutParagraph{
+    margin-top: 8px;;
+}
+
+.educationColumn{
+    width: 40%;
+}
+
+.educationFont{
+    font-size:smaller;
+}
+
+.educationRowMargin{
+    margin-top: 10px;
+}
+
+#fypDescription{
+    margin-top: 8px;
+    color:white;
+}
+
+.fypPoints{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.otherProjectsPoints{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.otherProjectsContent{
+    display:inline;
+}
+
+.prominent{
+    color:white;
+}
